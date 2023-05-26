@@ -93,7 +93,7 @@ let puzzleTasks = [
     {
         taskNumber: 8,
         taskSolution: 2079,
-        taskHint: "One bird in a bush is 35, but how many words are in each Poloroid?",
+        taskHint: "One bird in a bush is 35, but how many words are in each Polaroid?",
         taskImage: "./images/puzzle8.png",
     },
     {
