@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Head Scratchers 1</title>
+        <link rel="stylesheet" href="styles.css" />
+        <!-- <link rel="icon" type="image/x-icon" href="images/favicon.png" /> -->
+        <!--The favicon is from the open source project Twemoji. The graphics are copyright 2020 Twitter, 
+            Inc and other contributors. The graphics are licensed under CC-BY 4.0. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <main>
+            <h1>Head Scratchers 1</h1>
+            <div id="task-box">
+                <button onclick="launchGame()">Begin</button>
+            </div>
+            <div id="enter-box">
+                <input id="answer-input" />
+                <button onclick="enterAnswer()">Guess</button>
+                <p id="wrong-message">Incorrect</p>
+            </div>
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="functionality.js"></script>
+    </body>
+</html>
